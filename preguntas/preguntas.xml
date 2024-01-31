@@ -1,0 +1,3081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preguntas>
+    <!-- PREGUNTAS DE ARQUITECTURA DE COMPUTADORAS -->
+    <pregunta>
+        <texto>Cómo consigue el procesador efectuar un secuenciamiento implícito?</texto>
+        <opciones>
+            <opcion valor="a">Sumando 4 al PC</opcion>
+            <opcion valor="b">Restando 4 al PC</opcion>
+            <opcion valor="c">Multiplicando el PC por 4</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Cómo se almacena la información en la memoria de un computador?</texto>
+        <opciones>
+            <opcion valor="a">Como números</opcion>
+            <opcion valor="b">Como texto</opcion>
+            <opcion valor="c">Como imágenes</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Cómo se llenan los bits altos del registro r0 con una instrucción “ldrh r0, [r1, #2]”?</texto>
+        <opciones>
+            <opcion valor="a">Los 16 bits altos a 0</opcion>
+            <opcion valor="b">Los 16 bits altos al valor del registro r1</opcion>
+            <opcion valor="c">Los 16 bits altos al valor 1</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Cómo se organiza la memoria de un sistema programable basado en ARMv4?</texto>
+        <opciones>
+            <opcion valor="a">Como un vector de bytes</opcion>
+            <opcion valor="b">Como un conjunto de registros</opcion>
+            <opcion valor="c">Como una matriz de enteros</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Cuál de las siguientes instrucciones sirve para cargar un byte de memoria que representa un valor entero en un registro de lenguaje máquina?</texto>
+        <opciones>
+            <opcion valor="a">ldsb</opcion>
+            <opcion valor="b">strb</opcion>
+            <opcion valor="c">ldrh</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Cuál de las siguientes instrucciones sirve para cargar un half-word de memoria en un registro de lenguaje máquina?</texto>
+        <opciones>
+            <opcion valor="a">ldrh</opcion>
+            <opcion valor="b">strh</opcion>
+            <opcion valor="c">ldsb</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Cuál de las siguientes instrucciones sirve para grabar el contenido de un registro de lenguaje máquina en un half-word de memoria?</texto>
+        <opciones>
+            <opcion valor="a">strh</opcion>
+            <opcion valor="b">ldrh</opcion>
+            <opcion valor="c">strb</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Cuál de las siguientes instrucciones sirve para grabar el valor entero de un registro de lenguaje máquina en un byte de memoria?</texto>
+        <opciones>
+            <opcion valor="a">strb</opcion>
+            <opcion valor="b">ldsb</opcion>
+            <opcion valor="c">ldrh</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Cuál es el bit de más peso de un byte?</texto>
+        <opciones>
+            <opcion valor="a">El bit 0</opcion>
+            <opcion valor="b">El bit 7</opcion>
+            <opcion valor="c">El bit 8</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Cuál es el bit de más peso de un halfword?</texto>
+        <opciones>
+            <opcion valor="a">El bit 0</opcion>
+            <opcion valor="b">El bit 15</opcion>
+            <opcion valor="c">El bit 16</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Cuál es el número de bits mínimo que puede capturar de memoria un procesador ARMv4 en un solo acceso?</texto>
+        <opciones>
+            <opcion valor="a">4</opcion>
+            <opcion valor="b">8</opcion>
+            <opcion valor="c">16</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Cuál es el rango máximo de los números enteros que puede manejar intrínsecamente un procesador ARMv4?</texto>
+        <opciones>
+            <opcion valor="a">0 a 4294967295</opcion>
+            <opcion valor="b">-2147483648 a 2147483647</opcion>
+            <opcion valor="c">-4294967295 a 4294967295</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Cuántas posiciones de memoria lógica ocupa un vector de m bytes?</texto>
+        <opciones>
+            <opcion valor="a">2m</opcion>
+            <opcion valor="b">m</opcion>
+            <opcion valor="c">4m</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Cuántas posiciones de memoria lógica ocupa un vector de m halfwords?</texto>
+        <opciones>
+            <opcion valor="a">m</opcion>
+            <opcion valor="b">2m</opcion>
+            <opcion valor="c">4m</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <!-- ... Agrega más preguntas según sea necesario ... -->
+    <pregunta>
+    <texto>Cuántos bits contiene cada registro del ARMv4?</texto>
+    <opciones>
+        <opcion valor="a">8</opcion>
+        <opcion valor="b">16</opcion>
+        <opcion valor="c">32</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bits del registro r0 se modifican con la instrucción “ldrh r0, [r1, r2, lsl #2]”?</texto>
+    <opciones>
+        <opcion valor="a">8</opcion>
+        <opcion valor="b">16</opcion>
+        <opcion valor="c">32</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bits puede capturar de memoria simultáneamente un procesador ARMv4 en un sólo acceso?</texto>
+    <opciones>
+        <opcion valor="a">8</opcion>
+        <opcion valor="b">16</opcion>
+        <opcion valor="c">32</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bits se necesitan para codificar una variable de tipo 'unsigned char'?</texto>
+    <opciones>
+        <opcion valor="a">8</opcion>
+        <opcion valor="b">16</opcion>
+        <opcion valor="c">32</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bits tiene un word?</texto>
+    <opciones>
+        <opcion valor="a">8</opcion>
+        <opcion valor="b">16</opcion>
+        <opcion valor="c">32</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bytes de memoria lógica se pueden direccionar o indexar con un bus de direcciones de n bits?</texto>
+    <opciones>
+        <opcion valor="a">2^(n-1)</opcion>
+        <opcion valor="b">2^n</opcion>
+        <opcion valor="c">2^(n+1)</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bytes se necesitan para codificar una variable de tipo 'int'?</texto>
+    <opciones>
+        <opcion valor="a">2</opcion>
+        <opcion valor="b">4</opcion>
+        <opcion valor="c">8</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bytes se necesitan para codificar una variable de tipo 'short'?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2</opcion>
+        <opcion valor="c">4</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bytes tiene un halfword?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2</opcion>
+        <opcion valor="c">4</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bytes tienen las posiciones de memoria lógica?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2</opcion>
+        <opcion valor="c">4</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos dígitos hexadecimales se necesitan para codificar un byte?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2</opcion>
+        <opcion valor="c">4</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos dígitos hexadecimales se necesitan para codificar un word?</texto>
+    <opciones>
+        <opcion valor="a">4</opcion>
+        <opcion valor="b">8</opcion>
+        <opcion valor="c">16</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos registros de lenguaje máquina para almacenar datos en general dispone el procesador ARMv4?</texto>
+    <opciones>
+        <opcion valor="a">8</opcion>
+        <opcion valor="b">13</opcion>
+        <opcion valor="c">16</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>De los 12 bits que se reservan en una instrucción ARMv4 para codificar el operando inmediato ¿Cuántos se utilizan para indicar el patrón que configura los bits a 1 en el número final?</texto>
+    <opciones>
+        <opcion valor="a">4</opcion>
+        <opcion valor="b">8</opcion>
+        <opcion valor="c">12</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En un desplazamiento de un registro a la derecha con el operador ‘asr’, ¿qué valor se introduce por el bit de más peso del registro?</texto>
+    <opciones>
+        <opcion valor="a">El bit 0</opcion>
+        <opcion valor="b">0 si el número es positivo, 1 si es negativo</opcion>
+        <opcion valor="c">El bit de signo del número</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué registro del procesador se encarga de memorizar la dirección de la instrucción de lenguaje máquina a ejecutar?</texto>
+    <opciones>
+        <opcion valor="a">el r0</opcion>
+        <opcion valor="b">el r15 (pc)</opcion>
+        <opcion valor="c">el r7</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Suponiendo que r0 = 6 y r1 = 10, ¿cuál es el resultado de ejecutar ‘orr r2, r1, r0, lsr #2’?</texto>
+    <opciones>
+        <opcion valor="a">r2 = 8</opcion>
+        <opcion valor="b">r2 = 9</opcion>
+        <opcion valor="c">r2 = 11</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Suponiendo que r0 = 6 y r1 = 10, ¿cuál es el resultado de ejecutar ‘tst r1, r0, ror #1’?</texto>
+    <opciones>
+        <opcion valor="a">Flag Z = 0</opcion>
+        <opcion valor="b">Flag Z = 1</opcion>
+        <opcion valor="c">Flag N = 1</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Suponiendo que r0 = 6 y r1 = 10, ¿cuál es el resultado de ejecutar ‘tst r1, r0, ror #2’?</texto>
+    <opciones>
+        <opcion valor="a">Flag Z = 0</opcion>
+        <opcion valor="b">Flag Z = 1</opcion>
+        <opcion valor="c">Flag N = 1</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Suponiendo que r0 = 6 y r1 = 10, ¿cuál es el resultado de la instrucción ‘and r2, r1, r0’?</texto>
+    <opciones>
+        <opcion valor="a">r2 = 2</opcion>
+        <opcion valor="b">r2 = 4</opcion>
+        <opcion valor="c">r2 = 6</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Suponiendo que r0 = 6 y r1 = 10, ¿cuál es el resultado de la instrucción ‘eor r2, r1, r0’?</texto>
+    <opciones>
+        <opcion valor="a">r2 = 8</opcion>
+        <opcion valor="b">r2 = 12</opcion>
+        <opcion valor="c">r2 = 16</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Suponiendo que r0 contiene un número entero ¿Qué instrucción podemos utilizar para dividir el contenido de r0 por 16?</texto>
+    <opciones>
+        <opcion valor="a">mov r0, r0, asr #2</opcion>
+        <opcion valor="b">mov r0, r0, lsr #4</opcion>
+        <opcion valor="c">mov r0, r0, asr #4</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Suponiendo que r13 = 0x07DC y r14 = 0x84AC, ¿Cuál es el valor del r13 después de ejecutar la instrucción “push {r0-r2, lr}”?</texto>
+    <opciones>
+        <opcion valor="a">r13 = 0x07CC</opcion>
+        <opcion valor="b">r13 = 0x07EC</opcion>
+        <opcion valor="c">r13 = 0x07FC</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Suponiendo que tenemos la dirección base de un vector de words en el registro R0 y el índice de una posición en R1, ¿con qué instrucción de lenguaje máquina del ARM podríamos leer el elemento referenciado por el índice sobre R2?</texto>
+    <opciones>
+        <opcion valor="a">ldr r2, [r0, r1]</opcion>
+        <opcion valor="b">ldr r2, [r0, r1, lsl #2]</opcion>
+        <opcion valor="c">ldr r2, [r0, r1, lsl #4]</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bits tiene un halfword?</texto>
+    <opciones>
+        <opcion valor="a">8</opcion>
+        <opcion valor="b">16</opcion>
+        <opcion valor="c">32</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo se modifica el registro 'sp' después de ejecutar una instrucción 'push {r0-r3, lr}'?</texto>
+    <opciones>
+        <opcion valor="a">sp = sp -16</opcion>
+        <opcion valor="b">sp = sp -20</opcion>
+        <opcion valor="c">sp = sp -24</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál de las siguientes instrucciones sirve para grabar el contenido de un registro de lenguaje máquina en un word de memoria?</texto>
+    <opciones>
+        <opcion valor="a">strb</opcion>
+        <opcion valor="b">strh</opcion>
+        <opcion valor="c">str</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es el bit de menos peso de un byte?</texto>
+    <opciones>
+        <opcion valor="a">El bit 0</opcion>
+        <opcion valor="b">El bit 7</opcion>
+        <opcion valor="c">El bit 8</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es el secuenciamiento implícito de un programa en lenguaje máquina?</texto>
+    <opciones>
+        <opcion valor="a">El que ejecuta la instrucción anterior a la instrucción actual</opcion>
+        <opcion valor="b">El que ejecuta la instrucción siguiente en memoria a la instrucción actual</opcion>
+        <opcion valor="c">El que ejecuta la instrucción en la posición de memoria más alta</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bits se necesitan para codificar una variable de tipo 'unsigned short'?</texto>
+    <opciones>
+        <opcion valor="a">8</opcion>
+        <opcion valor="b">16</opcion>
+        <opcion valor="c">32</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bits tiene un byte?</texto>
+    <opciones>
+        <opcion valor="a">8</opcion>
+        <opcion valor="b">16</opcion>
+        <opcion valor="c">32</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bytes se necesitan para codificar una variable de tipo 'char'?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2</opcion>
+        <opcion valor="c">4</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Suponiendo que r0 = 6 y r1 = 10, ¿cuál es el resultado de ejecutar ‘orr r2, r1, r0’?</texto>
+    <opciones>
+        <opcion valor="a">r2 = 8</opcion>
+        <opcion valor="b">r2 = 12</opcion>
+        <opcion valor="c">r2 = 14</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Suponiendo que r0 = 6 y r1 = 10, ¿cuál es el resultado de la instrucción ‘eor r2, r1, r0, asr #1’?</texto>
+    <opciones>
+        <opcion valor="a">r2 = 7</opcion>
+        <opcion valor="b">r2 = 9</opcion>
+        <opcion valor="c">r2 = 11</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Suponiendo que r0 contiene un número natural ¿Qué instrucción podemos utilizar para dividir el contenido de r0 por 16?</texto>
+    <opciones>
+        <opcion valor="a">mov r0, r0, lsr #2</opcion>
+        <opcion valor="b">mov r0, r0, lsr #4</opcion>
+        <opcion valor="c">mov r0, r0, asr #4</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Cuántos bytes puede capturar de memoria simultáneamente un procesador ARMv4 en un solo acceso?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2</opcion>
+        <opcion valor="c">4</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bits se reservan en una instrucción ARMv4 para codificar un operando inmediato?</texto>
+    <opciones>
+        <opcion valor="a">4</opcion>
+        <opcion valor="b">8</opcion>
+        <opcion valor="c">12</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En una rotación de un registro a la derecha con el operador 'ror', ¿qué valores se introducen por el bit de más peso del registro?</texto>
+    <opciones>
+        <opcion valor="a">El bit 0</opcion>
+        <opcion valor="b">El bit de signo del número</opcion>
+        <opcion valor="c">los bits de menor peso que se desplazan</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué bits del registro r0 se graban en memoria con la instrucción "strh r0, [r1, r2, lsl #2]"?</texto>
+    <opciones>
+        <opcion valor="a">los 16 de más peso</opcion>
+        <opcion valor="b">los 16 de menos peso</opcion>
+        <opcion valor="c">todos los bits</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Suponiendo que r0 = 6 y r1 = 10, ¿cuál es el resultado de la instrucción ‘and r2, r1, r0, lsl #2’?</texto>
+    <opciones>
+        <opcion valor="a">r2 = 4</opcion>
+        <opcion valor="b">r2 = 6</opcion>
+        <opcion valor="c">r2 = 8</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál de los siguientes operadores se emplea para desplazar el contenido de un registro cierto número de bits a la izquierda?</texto>
+    <opciones>
+        <opcion valor="a">lsl</opcion>
+        <opcion valor="b">lsr</opcion>
+        <opcion valor="c">ror</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos dígitos hexadecimales se necesitan para codificar un halfword?</texto>
+    <opciones>
+        <opcion valor="a">2</opcion>
+        <opcion valor="b">4</opcion>
+        <opcion valor="c">8</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>A nivel de ejecución de los programas de la NDS, qué implicaciones tiene que el procesador ARM 9 implemente una arquitectura Harvard?</texto>
+    <opciones>
+        <opcion valor="a">Que solo puede acceder a una instrucción o a un dato a la vez</opcion>
+        <opcion valor="b">Que puede acceder a una instrucción y a un dato simultáneamente</opcion>
+        <opcion valor="c">Que la velocidad de ejecución es más lenta</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>A qué frecuencia de reloj trabaja el ARM9 de la NDS (aproximadamente)?</texto>
+    <opciones>
+        <opcion valor="a">33 MHz</opcion>
+        <opcion valor="b">66 MHz</opcion>
+        <opcion valor="c">100 MHz</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>A qué frecuencia se actualizan los displays de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">40 Hz</opcion>
+        <opcion valor="b">60 Hz</opcion>
+        <opcion valor="c">50 Hz</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál de las dos pantallas de la NDS es táctil?</texto>
+    <opciones>
+        <opcion valor="a">La de arriba</opcion>
+        <opcion valor="b">La de abajo</opcion>
+        <opcion valor="c">Ambas pantallas son táctiles</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Por defecto, qué procesador tiene prioridad de acceso a la memoria principal en caso de conflicto?</texto>
+    <opciones>
+        <opcion valor="a">El ARM9</opcion>
+        <opcion valor="b">El ARM7</opcion>
+        <opcion valor="c">Ambos procesadores tienen la misma prioridad</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué procesador de la NDS dispone de memorias dedicadas para instrucciones y datos (ITCM y DTCM)?</texto>
+    <opciones>
+        <opcion valor="a">El ARM7</opcion>
+        <opcion valor="b">El ARM9</opcion>
+        <opcion valor="c">Ambos procesadores tienen memorias dedicadas</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántas CPUs ARM tiene la NDS?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2</opcion>
+        <opcion valor="c">3</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántas pantallas táctiles tiene la NDS?</texto>
+    <opciones>
+        <opcion valor="a">0</opcion>
+        <opcion valor="b">1</opcion>
+        <opcion valor="c">2</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál de los siguientes componentes no se puede considerar intrínseco a la estructura básica de un sistema programable?</texto>
+    <opciones>
+        <opcion valor="a">Memoria RAM</opcion>
+        <opcion valor="b">Procesador</opcion>
+        <opcion valor="c">Dispositivo periférico</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Dónde se guarda físicamente el contenido de los registros de entrada/salida de un sistema programable?</texto>
+    <opciones>
+        <opcion valor="a">En la CPU</opcion>
+        <opcion valor="b">En la memoria RAM</opcion>
+        <opcion valor="c">En los controladores de entrada/salida</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En teoría, cuál de los siguientes tipos de registro de entrada/salida es sólo de lectura?</texto>
+    <opciones>
+        <opcion valor="a">Estado</opcion>
+        <opcion valor="b">Control</opcion>
+        <opcion valor="c">Datos</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En teoría, cuál de los siguientes tipos de registro de entrada/salida permite la lectura y escritura de información?</texto>
+    <opciones>
+        <opcion valor="a">Datos</opcion>
+        <opcion valor="b">Control</opcion>
+        <opcion valor="c">Estado</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Para qué sirven los registros de E/S de control?</texto>
+    <opciones>
+        <opcion valor="a">Para almacenar datos temporales</opcion>
+        <opcion valor="b">Para configurar el comportamiento del controlador / periférico</opcion>
+        <opcion valor="c">Para realizar operaciones aritméticas</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En teoría, cuál de los siguientes tipos de registro de entrada/salida es sólo de escritura?</texto>
+    <opciones>
+        <opcion valor="a">Estado</opcion>
+        <opcion valor="b">Control</opcion>
+        <opcion valor="c">Datos</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Para qué sirven los registros de E/S de estado?</texto>
+    <opciones>
+        <opcion valor="a">Para almacenar datos temporales</opcion>
+        <opcion valor="b">Para realizar operaciones aritméticas</opcion>
+        <opcion valor="c">Para consultar las condiciones actuales del controlador / periférico</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Cuál de los componentes principales (CPU, memoria, reg. E/S) no necesita de 'chip select'?</texto>
+    <opciones>
+        <opcion valor="a">CPU</opcion>
+        <opcion valor="b">Memoria</opcion>
+        <opcion valor="c">Registros de E/S</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos componentes pueden estar conectados simultáneamente en un bus?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2</opcion>
+        <opcion valor="c">3</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En qué estado se colocan las conexiones de un componente al que se le desactiva el señal de 'chip select'?</texto>
+    <opciones>
+        <opcion valor="a">En bajo</opcion>
+        <opcion valor="b">En alta impedancia</opcion>
+        <opcion valor="c">En alto</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué se consigue con la activación del 'chip select' de un componente?</texto>
+    <opciones>
+        <opcion valor="a">Desconectar el componente del bus</opcion>
+        <opcion valor="b">Conectar el componente al bus</opcion>
+        <opcion valor="c">Iniciar la ejecución de instrucciones en la CPU</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Por qué es necesario regular el acceso al bus cuando hay más de 2 componentes conectados?</texto>
+    <opciones>
+        <opcion valor="a">Para acelerar la velocidad de transferencia de datos</opcion>
+        <opcion valor="b">Para evitar que más de dos componentes estén conectados al bus al mismo tiempo</opcion>
+        <opcion valor="c">Para aumentar la capacidad del bus</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué pasaría si no existiesen los señales de 'chip select'?</texto>
+    <opciones>
+        <opcion valor="a">Los componentes no podrían ser conectados al bus</opcion>
+        <opcion valor="b">Se provocarían cortocircuitos</opcion>
+        <opcion valor="c">La velocidad de transferencia sería muy lenta</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué se consigue con la desactivación del 'chip select' de un componente?</texto>
+    <opciones>
+        <opcion valor="a">Conectar el componente al bus</opcion>
+        <opcion valor="b">Desconectar el componente del bus</opcion>
+        <opcion valor="c">Inhibir el funcionamiento de la CPU</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Cómo se genera la activación del 'chip select' de la memoria compartida (shared memory) con direcciones desde 0300 0000 a 037F FFFF?</texto>
+    <opciones>
+        <opcion valor="a">~a31·~a30·~a29·~a28 · ~a27·~a26· a25· a24 · a23</opcion>
+        <opcion valor="b">~a31·~a30·~a29·~a28 · ~a27·~a26· a25· a24 · ~a23</opcion>
+        <opcion valor="c">~a31·~a30·~a29·~a28 · ~a27·~a26·~a25·~a24·~a23</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo se genera la activación del 'chip select' de la memoria de trabajo del ARM7 (fast memory) con direcciones desde 0380 0000 a 03FF FFFF?</texto>
+    <opciones>
+        <opcion valor="a">~a31·~a30·~a29·~a28 · ~a27·~a26· a25· a24 · ~a23</opcion>
+        <opcion valor="b">~a31·~a30·~a29·~a28 · ~a27·~a26· a25· a24 · a23</opcion>
+        <opcion valor="c">~a31·~a30·~a29·~a28 · ~a27·~a26·~a25·~a24·~a23</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo se genera la activación del 'chip select' de la memoria ROM de los cartuchos GBA/NDS con direcciones 08xx xxxx y 09xx xxxx?</texto>
+    <opciones>
+        <opcion valor="a">~a31·~a30·~a29·~a28 · a27· ~a26·~a25</opcion>
+        <opcion valor="b">~a31·~a30·~a29·~a28 · ~a27· ~a26·~a25</opcion>
+        <opcion valor="c">~a31·~a30·~a29·~a28 · ~a27·~a26· a25</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es la entrada de un controlador de direcciones?</texto>
+    <opciones>
+        <opcion valor="a">La dirección que genera la CPU</opcion>
+        <opcion valor="b">El 'chip select' de la memoria</opcion>
+        <opcion valor="c">Los datos que se escriben en la memoria</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tipo de señales genera el controlador de direcciones?</texto>
+    <opciones>
+        <opcion valor="a">Señales de datos</opcion>
+        <opcion valor="b">El 'chip select' de la memoria y los controladores de entrada/salida</opcion>
+        <opcion valor="c">Señales de reloj</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo se genera la activación del 'chip select' de la memoria principal con direcciones 02xx xxxx?</texto>
+    <opciones>
+        <opcion valor="a">~a31·~a30·~a29·~a28 · ~a27·~a26· a25· ~a24</opcion>
+        <opcion valor="b">~a31·~a30·~a29·~a28 · ~a27·~a26· a25· a24 · ~a23</opcion>
+        <opcion valor="c">~a31·~a30·~a29·~a28 · ~a27·~a26·~a25·~a24·~a23</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo se genera la activación del 'chip select' de la memoria principal con direcciones 0Bxx xxxx?</texto>
+    <opciones>
+        <opcion valor="a">~a31·~a30·~a29·~a28 · a27·~a26· a25· ~a24</opcion>
+        <opcion valor="b">~a31·~a30·~a29·~a28 · ~a27·~a26· a25· ~a24</opcion>
+        <opcion valor="c">~a31·~a30·~a29·~a28 · ~a27·~a26·~a25·~a24·~a23</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo se genera la activación del 'chip select' de la memoria ROM de los cartuchos GBA/NDS con direcciones 00xx xxxx y 01xx xxxx?</texto>
+    <opciones>
+        <opcion valor="a">~a31·~a30·~a29·~a28 · ~a27· ~a26·~a25</opcion>
+        <opcion valor="b">~a31·~a30·~a29·~a28 · a27· ~a26·~a25</opcion>
+        <opcion valor="c">~a31·~a30·~a29·~a28 · ~a27·~a26· a25</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Si para generar el 'chip select' de memoria principal se utilizan 10 bits, y para direccionar las posiciones de memoria se requieren 16 bits, ¿cuántas veces se reflejará la memoria principal en un sistema programable que utiliza 32 bits para expresar una dirección lógica?</texto>
+    <opciones>
+        <opcion valor="a">16</opcion>
+        <opcion valor="b">32</opcion>
+        <opcion valor="c">64</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Si para generar el 'chip select' de memoria principal se utilizan 8 bits, y para direccionar las posiciones de memoria se requieren 12 bits, ¿cuántas veces se reflejará la memoria principal en un sistema programable que utiliza 24 bits para expresar una dirección lógica?</texto>
+    <opciones>
+        <opcion valor="a">4</opcion>
+        <opcion valor="b">8</opcion>
+        <opcion valor="c">16</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Si un componente conectado al bus dispone de 512 bytes direccionables, que se encuentran reflejados 128 veces en el espacio de direcciones lógico ¿de cuántos bits es el bus de direcciones si para generar su 'chip select' se utilizan 20 bits?</texto>
+    <opciones>
+        <opcion valor="a">32</opcion>
+        <opcion valor="b">36</opcion>
+        <opcion valor="c">40</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Si una posición de memoria está reflejada 4 veces ¿cuántos valores distintos puede albergar?</texto>
+    <opciones>
+        <opcion valor="a">Sólo uno</opcion>
+        <opcion valor="b">Dos</opcion>
+        <opcion valor="c">Cuatro</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Si un componente conectado al bus dispone de 32 registros que se encuentran reflejados 4 veces en el espacio de direcciones lógico ¿cuántos bits se utilizan para generar su 'chip select' si el bus de direcciones es de 20 bits?</texto>
+    <opciones>
+        <opcion valor="a">10</opcion>
+        <opcion valor="b">11</opcion>
+        <opcion valor="c">13</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué significa que una zona de memoria esté reflejada?</texto>
+    <opciones>
+        <opcion valor="a">Que varias direcciones de memoria acceden a una misma posición de la memoria</opcion>
+        <opcion valor="b">Que las direcciones de memoria tienen un patrón reflejado</opcion>
+        <opcion valor="c">Que la memoria está dividida en secciones iguales</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Por qué se generan zonas de memoria reflejada en un sistema programable?</texto>
+    <opciones>
+        <opcion valor="a">Porque el 'chip select' se activa para un rango de direcciones lógicas más grande que la memoria física</opcion>
+        <opcion valor="b">Para aumentar la velocidad de acceso a la memoria</opcion>
+        <opcion valor="c">Para reducir la complejidad del sistema</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Cuál es el tamaño mínimo de los bancos de memoria de vídeo-RAM de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">8 KBytes</opcion>
+        <opcion valor="b">16 KBytes</opcion>
+        <opcion valor="c">32 KBytes</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántas memorias BIOS existen para trabajar en modo NDS?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2</opcion>
+        <opcion valor="c">3</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué procesador de la NDS puede acceder a memoria principal?</texto>
+    <opciones>
+        <opcion valor="a">Solo el ARM7</opcion>
+        <opcion valor="b">Solo el ARM9</opcion>
+        <opcion valor="c">El ARM7 y el ARM9</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué procesador puede acceder a la memoria de paletas de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">El ARM7</opcion>
+        <opcion valor="b">El ARM9</opcion>
+        <opcion valor="c">Ambos, el ARM7 y el ARM9</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tamaño tiene el bus de datos de la memoria de vídeo de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">8 bits</opcion>
+        <opcion valor="b">16 bits</opcion>
+        <opcion valor="c">32 bits</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tamaño tiene el bus de datos de la memoria principal de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">8 bits</opcion>
+        <opcion valor="b">16 bits</opcion>
+        <opcion valor="c">32 bits</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tamaño tienen el bus de datos de la memoria RAM compartible entre los procesadores de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">16 bits</opcion>
+        <opcion valor="b">32 bits</opcion>
+        <opcion valor="c">64 bits</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué zonas de memoria son accesibles a través del 'Bridge' por los dos procesadores de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Solo la memoria principal</opcion>
+        <opcion valor="b">La memoria principal, la vídeo-RAM y la memoria de los cartuchos GBA</opcion>
+        <opcion valor="c">La memoria de paletas y la memoria principal</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es el tamaño máximo de los bancos de memoria de vídeo-RAM de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">64 KBytes</opcion>
+        <opcion valor="b">128 KBytes</opcion>
+        <opcion valor="c">256 KBytes</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tamaño tienen el bus de datos de la memoria RAM dedicada al procesador ARM7 (IWRAM)?</texto>
+    <opciones>
+        <opcion valor="a">8 bits</opcion>
+        <opcion valor="b">16 bits</opcion>
+        <opcion valor="c">32 bits</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué procesador puede acceder a la memoria del procesador gráfico 3D de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">El ARM7</opcion>
+        <opcion valor="b">El ARM9</opcion>
+        <opcion valor="c">Ninguno (sólo el controlador de 3D puede acceder a su memoria de trabajo)</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Cómo se puede distribuir la memoria RAM compartible entre los procesadores de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">0, 1 ó 2 bancos para un procesador, y el resto para el otro procesador</opcion>
+        <opcion valor="b">Todos los bancos para el ARM7</opcion>
+        <opcion valor="c">Todos los bancos para el ARM9</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es la dirección base de la memoria BIOS del procesador ARM9 en la NDS?</texto>
+    <opciones>
+        <opcion valor="a">FFFF 0000</opcion>
+        <opcion valor="b">0400 0000</opcion>
+        <opcion valor="c">0800 0000</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es la dirección base de la memoria de atributos de objetos (sprites) de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">0300 0000</opcion>
+        <opcion valor="b">0500 0000</opcion>
+        <opcion valor="c">0700 0000</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es la dirección base de la memoria RAM de los cartuchos GBA insertados en la NDS?</texto>
+    <opciones>
+        <opcion valor="a">0200 0000</opcion>
+        <opcion valor="b">0A00 0000</opcion>
+        <opcion valor="c">0C00 0000</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es la dirección base de los bancos de vídeo-RAM de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">0580 0000</opcion>
+        <opcion valor="b">0680 0000</opcion>
+        <opcion valor="c">0780 0000</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es la dirección de memoria a partir de la cual se ubican todos los registros de Entrada/Salida en la NDS?</texto>
+    <opciones>
+        <opcion valor="a">0200 0000</opcion>
+        <opcion valor="b">0400 0000</opcion>
+        <opcion valor="c">0600 0000</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tamaño tiene la memoria RAM compartible entre los procesadores de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">8 KBytes</opcion>
+        <opcion valor="b">16 KBytes</opcion>
+        <opcion valor="c">32 KBytes</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tamaño tiene la memoria RAM dedicada al procesador ARM7 (IWRAM)?</texto>
+    <opciones>
+        <opcion valor="a">32 KBytes</opcion>
+        <opcion valor="b">64 KBytes</opcion>
+        <opcion valor="c">128 KBytes</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es la direccion base de la memoria para las paletas de colores de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">0300 0000</opcion>
+        <opcion valor="b">0500 0000</opcion>
+        <opcion valor="c">0700 0000</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es la dirección base de la memoria de instrucciones acoplada al ARM9 (ITCM) en la NDS?</texto>
+    <opciones>
+        <opcion valor="a">0000 0000</opcion>
+        <opcion valor="b">0200 0000</opcion>
+        <opcion valor="c">0400 0000</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es la dirección base de la memoria RAM compartida de la NDS (Shared RAM)?</texto>
+    <opciones>
+        <opcion valor="a">0200 0000</opcion>
+        <opcion valor="b">0300 0000</opcion>
+        <opcion valor="c">0400 0000</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo está organizada la memoria RAM compartible por los procesadores de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">1 banco de 16 Kbytes para el ARM7 y 1 banco de 16 Kbytes para el ARM9</opcion>
+        <opcion valor="b">2 bancos de 16 Kbytes cada uno</opcion>
+        <opcion valor="c">1 banco de 32 Kbytes compartido por ambos procesadores</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Cuántos de los botones (o teclas) de la NDS se pueden consultar a través del registro REG_KEYINPUT?</texto>
+    <opciones>
+        <opcion valor="a">6</opcion>
+        <opcion valor="b">8</opcion>
+        <opcion valor="c">10</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Para qué sirve la zona de memoria "__TransferRegion" que define la librería "libnds"?</texto>
+    <opciones>
+        <opcion valor="a">Para almacenar gráficos de la pantalla táctil</opcion>
+        <opcion valor="b">Para que el ARM9 pueda consultar información que genera el ARM7, como el estado de los botones X e Y</opcion>
+        <opcion valor="c">Para almacenar el código de los juegos</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué botones de la NDS pueden generar una interrupción de teclado?</texto>
+    <opciones>
+        <opcion valor="a">Sólo A, B, X, e Y</opcion>
+        <opcion valor="b">Todos menos X e Y</opcion>
+        <opcion valor="c">Sólo L y R</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué botones NO se pueden consultar a través del registro REG_KEYINPUT?</texto>
+    <opciones>
+        <opcion valor="a">Todos los botones se pueden consultar</opcion>
+        <opcion valor="b">X e Y</opcion>
+        <opcion valor="c">Sólo L y R</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué botones o teclas se pueden consultar en el registro REG_KEYXY?</texto>
+    <opciones>
+        <opcion valor="a">Sólo A y B</opcion>
+        <opcion valor="b">Sólo X e Y</opcion>
+        <opcion valor="c">Todos los botones</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué procesadores pueden acceder al registro REG_KEYXY?</texto>
+    <opciones>
+        <opcion valor="a">Sólo el ARM9</opcion>
+        <opcion valor="b">Sólo el ARM7</opcion>
+        <opcion valor="c">Ambos procesadores</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Para qué sirve el registro KEYS_CR?</texto>
+    <opciones>
+        <opcion valor="a">Para indicar cuando se debe generar la interrupción de teclado</opcion>
+        <opcion valor="b">Para configurar la velocidad de repetición de las teclas</opcion>
+        <opcion valor="c">Para controlar la iluminación de la pantalla</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Además de los botones X e Y, ¿Qué otra información se puede consultar en el registro REG_KEYXY?</texto>
+    <opciones>
+        <opcion valor="a">El estado del lápiz y el estado de la tapa de la NDS</opcion>
+        <opcion valor="b">La posición actual del stylus</opcion>
+        <opcion valor="c">La orientación de la consola</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>A qué bancos de vídeo-RAM puede acceder el procesador gráfico 3D de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">A ninguno, el procesador 3D tiene su propia memoria interna de trabajo</opcion>
+        <opcion valor="b">A los bancos 0 y 1</opcion>
+        <opcion valor="c">A todos los bancos</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>A qué pantalla de la NDS puede acceder el procesador gráfico 3D?</texto>
+    <opciones>
+        <opcion valor="a">Sobre la que esté accediendo el Display Engine A</opcion>
+        <opcion valor="b">Sobre la que esté accediendo el Display Engine B</opcion>
+        <opcion valor="c">Sobre ambas pantallas simultáneamente</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál de los siguientes componentes de la NDS NO puede acceder a la vídeo-RAM?</texto>
+    <opciones>
+        <opcion valor="a">La CPU principal</opcion>
+        <opcion valor="b">El 2D Engine</opcion>
+        <opcion valor="c">El 3D Engine</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es la dirección base de la memoria virtual vídeo-RAM para los objetos en movimiento (sprites) del procesador gráfico principal de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">0640 0000</opcion>
+        <opcion valor="b">0660 0000</opcion>
+        <opcion valor="c">0600 0000</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es la dirección base de la memoria virtual vídeo-RAM para los objetos en movimiento (sprites) del procesador gráfico secundario de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">0640 0000</opcion>
+        <opcion valor="b">0660 0000</opcion>
+        <opcion valor="c">0600 0000</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es la dirección base de la memoria virtual vídeo-RAM para los fondos del procesador gráfico secundario de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">0620 0000</opcion>
+        <opcion valor="b">0600 0000</opcion>
+        <opcion valor="c">0640 0000</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es la dirección base de la memoria virtual vídeo-RAM para los fondos del procesador gráfico principal de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">0600 0000</opcion>
+        <opcion valor="b">0620 0000</opcion>
+        <opcion valor="c">0640 0000</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos procesadores gráficos tiene la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Uno para gráficos 2D y otro para gráficos 3D</opcion>
+        <opcion valor="b">Dos para gráficos 2D y uno para gráficos 3D</opcion>
+        <opcion valor="c">Uno para gráficos 2D y uno para gráficos 3D</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Sobre qué fondos del procesador gráfico 2D principal de la NDS sólo se puede visualizar una imagen de tipo 'Text'?</texto>
+    <opciones>
+        <opcion valor="a">Sobre el fondo 0, excepto en el modo 6 y el modo Frame Buffer</opcion>
+        <opcion valor="b">Sobre el fondo 1, excepto en el modo 6 y el modo Frame Buffer</opcion>
+        <opcion valor="c">Sobre el fondo 2, excepto en el modo 6 y el modo Frame Buffer</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Sobre qué fondos del procesador gráfico 2D secundario de la NDS sólo se puede visualizar una imagen de tipo 'Text'?</texto>
+    <opciones>
+        <opcion valor="a">Sobre los fondos 0 y 1</opcion>
+        <opcion valor="b">Sobre los fondos 2 y 3</opcion>
+        <opcion valor="c">Sobre los fondos 4 y 5</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Sobre qué modos de fondo del procesador 2D principal se puede visualizar imágenes grandes de tipo 'Large Bitmap'?</texto>
+    <opciones>
+        <opcion valor="a">Sólo sobre el modo 0</opcion>
+        <opcion valor="b">Sólo sobre el modo 6</opcion>
+        <opcion valor="c">Sobre los modos 2, 3, 4, y 5</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Sobre qué modos de fondo del procesador 2D secundario se puede visualizar imágenes grandes de tipo 'Large Bitmap'?</texto>
+    <opciones>
+        <opcion valor="a">Sobre el modo 0</opcion>
+        <opcion valor="b">Sobre el modo 1</opcion>
+        <opcion valor="c">Sobre ninguno, las imágenes tipo 'Large Bitmap' sólo se pueden visualizar en el procesador 2D principal</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Sobre qué modos de fondos gráficos del procesador 2D principal se puede visualizar la salida del procesador 3D?</texto>
+    <opciones>
+        <opcion valor="a">Sobre los modos del 0 a 6</opcion>
+        <opcion valor="b">Sobre los modos del 1 a 5</opcion>
+        <opcion valor="c">Sobre los modos del 2 a 4</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Sobre qué modos de fondos gráficos del procesador 2D secundario se puede visualizar la salida del procesador 3D?</texto>
+    <opciones>
+        <opcion valor="a">Sobre los modos del 0 a 5</opcion>
+        <opcion valor="b">Sobre los modos del 1 a 4</opcion>
+        <opcion valor="c">Sobre ninguno, el procesador 2D secundario no puede visualizar la salida del procesador 3D</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos modos de fondos gráficos tiene el procesador gráfico 2D principal?</texto>
+    <opciones>
+        <opcion valor="a">5 más el modo Frame Buffer</opcion>
+        <opcion valor="b">6 más el modo Frame Buffer</opcion>
+        <opcion valor="c">7 más el modo Frame Buffer</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos fondos puede manejar el procesador gráfico 2D principal de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">3, excepto en el modo Frame Buffer</opcion>
+        <opcion valor="b">4, excepto en el modo Frame Buffer</opcion>
+        <opcion valor="c">5, excepto en el modo Frame Buffer</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos modos de fondos gráficos tiene el procesador gráfico 2D secundario?</texto>
+    <opciones>
+        <opcion valor="a">4</opcion>
+        <opcion valor="b">5</opcion>
+        <opcion valor="c">6</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Qué bancos de la vídeo RAM se pueden utilizar como memoria de trabajo del procesador ARM7?</texto>
+    <opciones>
+        <opcion valor="a">Los bancos A y B</opcion>
+        <opcion valor="b">Los bancos C y D</opcion>
+        <opcion valor="c">Los bancos E y F</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tamaño de memoria virtual de vídeo puede utilizar el procesador 2D principal para la información de los objetos gráficos (sprites)?</texto>
+    <opciones>
+        <opcion valor="a">128 KBytes</opcion>
+        <opcion valor="b">256 KBytes</opcion>
+        <opcion valor="c">512 KBytes</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tamaño de memoria virtual de vídeo puede utilizar el procesador 2D secundario para la información de los objetos gráficos (sprites)?</texto>
+    <opciones>
+        <opcion valor="a">64 KBytes</opcion>
+        <opcion valor="b">128 KBytes</opcion>
+        <opcion valor="c">256 KBytes</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tipo de información NO se puede almacenar en la memoria virtual de vídeo de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Mapas de bits</opcion>
+        <opcion valor="b">Atributos de los objetos (sprites)</opcion>
+        <opcion valor="c">Paletas convencionales (No extendidas)</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tamaño de memoria virtual de vídeo puede utilizar el procesador 2D principal para la información de los fondos gráficos?</texto>
+    <opciones>
+        <opcion valor="a">256 KBytes</opcion>
+        <opcion valor="b">512 KBytes</opcion>
+        <opcion valor="c">1 MByte</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tamaño de memoria virtual de vídeo puede utilizar el procesador 2D secundario para la información de los fondos gráficos?</texto>
+    <opciones>
+        <opcion valor="a">64 KBytes</opcion>
+        <opcion valor="b">128 KBytes</opcion>
+        <opcion valor="c">256 KBytes</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+
+```xml
+<pregunta>
+    <texto>En el modo Frame Buffer, ¿cuántos bytes se necesitan para codificar el color de cada píxel?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2</opcion>
+        <opcion valor="c">4</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En el modo Frame Buffer, ¿cuántos bits se utilizan para codificar la intensidad de cada canal de color para cada píxel?</texto>
+    <opciones>
+        <opcion valor="a">3</opcion>
+        <opcion valor="b">5</opcion>
+        <opcion valor="c">8</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En el modo Frame Buffer de la NDS, ¿cuántos colores distintos se pueden especificar para cada píxel?</texto>
+    <opciones>
+        <opcion valor="a">16</opcion>
+        <opcion valor="b">256</opcion>
+        <opcion valor="c">32.768</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo se generan los colores de los píxeles de la imagen en el modo Frame Buffer?</texto>
+    <opciones>
+        <opcion valor="a">Aleatoriamente</opcion>
+        <opcion valor="b">Fijando la intensidad de cada canal de color básico en cada píxel</opcion>
+        <opcion valor="c">Según una fórmula matemática compleja</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En el modo Frame Buffer, ¿cuántos niveles de intensidad se pueden especificar para cada canal de color para cada píxel?</texto>
+    <opciones>
+        <opcion valor="a">16</opcion>
+        <opcion valor="b">32</opcion>
+        <opcion valor="c">64</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En el modo Frame Buffer, ¿cuántos bits se necesitan para codificar el color de cada píxel?</texto>
+    <opciones>
+        <opcion valor="a">8</opcion>
+        <opcion valor="b">16</opcion>
+        <opcion valor="c">32</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En el modo Frame Buffer de la NDS, ¿cuántos píxeles se pueden mostrar por pantalla?</texto>
+    <opciones>
+        <opcion valor="a">128 x 96</opcion>
+        <opcion valor="b">256 x 192</opcion>
+        <opcion valor="c">512 x 384</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En el modo Frame Buffer de la NDS, ¿cómo se calcula la dirección de la vídeo-RAM que corresponde a un píxel de coordenadas (px, py)?</texto>
+    <opciones>
+        <opcion valor="a">base + (py * 256 + px)</opcion>
+        <opcion valor="b">base + (px * 256 + py)</opcion>
+        <opcion valor="c">base + (py * 192 + px) * 2</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Cuál de los siguientes parámetros de configuración NO se pueden especificar en un registro de control de fondo?</texto>
+    <opciones>
+        <opcion valor="a">La dirección base de la imagen</opcion>
+        <opcion valor="b">El color de fondo</opcion>
+        <opcion valor="c">El modo del fondo</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos registros de control de fondo existen en la plataforma NDS?</texto>
+    <opciones>
+        <opcion valor="a">4</opcion>
+        <opcion valor="b">6</opcion>
+        <opcion valor="c">8</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tipo de fondo NO permite la definición de los gráficos en base a un mapa de baldosas o 'tiles'?</texto>
+    <opciones>
+        <opcion valor="a">'Text'</opcion>
+        <opcion valor="b">'Extended BitMap'</opcion>
+        <opcion valor="c">'Affine'</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En un fondo de tipo 'Text', ¿cuántos bits por píxel se pueden utilizar?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">4</opcion>
+        <opcion valor="c">8</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Cuál es el modo correcto de distribuir la información de las baldosas y el mapa de un fondo de texto?</texto>
+    <opciones>
+        <opcion valor="a">Ambas en el mismo banco, a partir de direcciones base distintas</opcion>
+        <opcion valor="b">Baldosas en un banco y mapa en otro</opcion>
+        <opcion valor="c">Baldosas y mapa en el mismo banco, a la misma dirección base</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bytes se guardan para cada posición de un mapa de un fondo de texto?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2</opcion>
+        <opcion valor="c">4</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos bytes se guardan para cada posición de una paleta de colores convencional de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2</opcion>
+        <opcion valor="c">4</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De qué tamaño son los bloques de memoria para albergar la información de los mapas de baldosas en la NDS?</texto>
+    <opciones>
+        <opcion valor="a">512 bytes</opcion>
+        <opcion valor="b">1 Kbyte</opcion>
+        <opcion valor="c">2 Kbytes</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De qué tamaño son los bloques reservados a la información de las baldosas o 'tiles' en la NDS?</texto>
+    <opciones>
+        <opcion valor="a">8 Kbytes</opcion>
+        <opcion valor="b">16 Kbytes</opcion>
+        <opcion valor="c">32 Kbytes</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Los fondos en modo 'Text' de la NDS sólo pueden visualizar texto?</texto>
+    <opciones>
+        <opcion valor="a">Sí</opcion>
+        <opcion valor="b">No, en realidad visualizan un mapa de baldosas, las cuales pueden ser caracteres de texto o gráficos</opcion>
+        <opcion valor="c">Depende del juego</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Suponiendo que se definen baldosas que guardan el índice de color de cada píxel sobre una paleta de 256 colores, ¿Cuántos bytes de memoria se necesitan para almacenar el contenido de toda una baldosa?</texto>
+    <opciones>
+        <opcion valor="a">16 bytes</opcion>
+        <opcion valor="b">32 bytes</opcion>
+        <opcion valor="c">64 bytes</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué información contienen las baldosas o 'tiles'?</texto>
+    <opciones>
+        <opcion valor="a">La intensidad de los tres canales de un color</opcion>
+        <opcion valor="b">El índice de color de la paleta para cada píxel</opcion>
+        <opcion valor="c">La posición absoluta de cada píxel en la pantalla</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué información se guarda en una posición de una paleta de colores convencional de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">La posición absoluta de cada píxel en la pantalla</opcion>
+        <opcion valor="b">El índice de color de la paleta para cada píxel</opcion>
+        <opcion valor="c">La intensidad de los tres canales de un color</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuánta memoria ocupa un mapa de fondo de texto 32x32 caracteres?</texto>
+    <opciones>
+        <opcion valor="a">512 bytes</opcion>
+        <opcion valor="b">1 Kbyte</opcion>
+        <opcion valor="c">2 Kbytes</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuánta memoria ocupa una paleta de 16 colores?</texto>
+    <opciones>
+        <opcion valor="a">8 bytes</opcion>
+        <opcion valor="b">16 bytes</opcion>
+        <opcion valor="c">32 bytes</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Cuáles de las siguientes funcionalidades NO se pueden realizar con un fondo de tipo 'Extended'?</texto>
+    <opciones>
+        <opcion valor="a">Visualizar gráficos 3D</opcion>
+        <opcion valor="b">Visualizar imágenes de tipo 'Bitmap'</opcion>
+        <opcion valor="c">Visualizar texto</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuáles de las siguientes funcionalidades NO se pueden realizar con un fondo de tipo 'rotation / scale'?</texto>
+    <opciones>
+        <opcion valor="a">Visualizar gráficos 3D</opcion>
+        <opcion valor="b">Visualizar imágenes de tipo 'bitmap'</opcion>
+        <opcion valor="c">Rotar y escalar imágenes</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos tipos de imágenes 'Bitmap' se pueden representar en un fondo de tipo 'Extended'?</texto>
+    <opciones>
+        <opcion valor="a">Uno, el Bitmap16</opcion>
+        <opcion valor="b">Dos, el Bitmap8 y el Bitmap16</opcion>
+        <opcion valor="c">Tres, el Bitmap4, Bitmap8 y Bitmap16</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En un fondo de tipo 'Extended' que esté visualizando una imagen de tipo 'Bitmap16', ¿cuántos bytes por píxel se guardan en el banco de vídeo-RAM correspondiente?</texto>
+    <opciones>
+        <opcion valor="a">1 byte/píxel</opcion>
+        <opcion valor="b">2 bytes/píxel</opcion>
+        <opcion valor="c">4 bytes/píxel</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Se puede visualizar texto rotado y escalado en una pantalla de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">No, solo se pueden visualizar imágenes</opcion>
+        <opcion valor="b">Sí, utilizando un fondo 'Rotation / Scale'</opcion>
+        <opcion valor="c">Sí, pero solo en modo Frame Buffer</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Se puede acceder a un fondo de tipo 'Extended' como si fuese un Frame Buffer?</texto>
+    <opciones>
+        <opcion valor="a">Sí, siempre</opcion>
+        <opcion valor="b">Sí, pero solo cuando está visualizando una imagen de tipo 'Bitmap'</opcion>
+        <opcion valor="c">No, no se puede acceder como Frame Buffer</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En un fondo de tipo 'Extended' que esté visualizando una imagen de tipo 'Bitmap8', ¿cuántos bytes por píxel se guardan en el banco de vídeo-RAM correspondiente?</texto>
+    <opciones>
+        <opcion valor="a">1 byte/píxel</opcion>
+        <opcion valor="b">2 bytes/píxel</opcion>
+        <opcion valor="c">4 bytes/píxel</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo se puede organizar la paleta de colores convencional para los 'sprites' de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Como una paleta de 256 colores</opcion>
+        <opcion valor="b">Como 16 paletas de 16 colores cada una</opcion>
+        <opcion valor="c">Como una paleta de 16 colores</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál de las siguientes formas de 'sprites' NO puede ser manipulada por los procesadores gráficos 2D de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Rectangular</opcion>
+        <opcion valor="b">Circular</opcion>
+        <opcion valor="c">Lineal</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es el tamaño mínimo de un 'sprite' en la plataforma NDS?</texto>
+    <opciones>
+        <opcion valor="a">4x4 píxeles</opcion>
+        <opcion valor="b">8x8 píxeles</opcion>
+        <opcion valor="c">16x16 píxeles</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuáles de los siguientes parámetros NO se pueden configurar mediante los atributos de los 'sprites'?</texto>
+    <opciones>
+        <opcion valor="a">Posición en X e Y</opcion>
+        <opcion valor="b">Tamaño</opcion>
+        <opcion valor="c">Grados de rotación</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos 'sprites' se pueden visualizar en una de las pantallas de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">64</opcion>
+        <opcion valor="b">128</opcion>
+        <opcion valor="c">256</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En la memoria de atributos de objeto (OAM), ¿cómo se calcula la dirección inicial del primer atributo del 'sprite' x?</texto>
+    <opciones>
+        <opcion valor="a">base + x*2</opcion>
+        <opcion valor="b">base + x*4</opcion>
+        <opcion valor="c">base + x*8</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En la memoria de atributos de objeto (OAM), ¿cómo se definen la rotación y el escalado de los 'sprites'?</texto>
+    <opciones>
+        <opcion valor="a">En campos separados dentro de la memoria OAM</opcion>
+        <opcion valor="b">En unos campos específicos que se entrelazan con los atributos de los 'sprites'</opcion>
+        <opcion valor="c">No se pueden definir rotación y escalado para los 'sprites'</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál de los siguientes parámetros NO se pueden configurar mediante los atributos de los 'sprites'?</texto>
+    <opciones>
+        <opcion valor="a">La prioridad</opcion>
+        <opcion valor="b">El factor de escala variable</opcion>
+        <opcion valor="c">El modo de mezcla</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Dónde se guarda la información de la paleta de colores convencional para los 'sprites'?</texto>
+    <opciones>
+        <opcion valor="a">En la misma memoria de atributos de objeto (OAM)</opcion>
+        <opcion valor="b">En una zona de memoria contigua a la zona para la paleta de colores para los fondos</opcion>
+        <opcion valor="c">En una memoria externa</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos "sprites" se pueden manejar simultániamente en la NDS?</texto>
+    <opciones>
+        <opcion valor="a">64</opcion>
+        <opcion valor="b">128</opcion>
+        <opcion valor="c">256</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo se define la forma gráfica de un 'sprite'?</texto>
+    <opciones>
+        <opcion valor="a">Con una matriz de transformación</opcion>
+        <opcion valor="b">Con una fórmula matemática</opcion>
+        <opcion valor="c">Con una o varias baldosas</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En la memoria de atributos de objeto (OAM), ¿cuántos atributos se guardan por 'sprite'?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2</opcion>
+        <opcion valor="c">3</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Cuál es el tiempo aproximado de un retraso horizontal en las pantallas de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">12 microsegundos</opcion>
+        <opcion valor="b">17 microsegundos</opcion>
+        <opcion valor="c">22 microsegundos</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuánto tiempo pueden tardar como máximo las instrucciones de modificación de una pantalla NDS?</texto>
+    <opciones>
+        <opcion valor="a">El tiempo de retrazado horizontal</opcion>
+        <opcion valor="b">El tiempo de retrazado vertical</opcion>
+        <opcion valor="c">El tiempo de NO pintado de la pantalla (retrazado vertical)</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Por qué es necesario la sincronización de entrada/salida?</texto>
+    <opciones>
+        <opcion valor="a">Para evitar la pérdida de información</opcion>
+        <opcion valor="b">Para mejorar la velocidad de ejecución</opcion>
+        <opcion valor="c">Para evitar enviar información a un controlador que todavía no está preparado</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué evento espera la función swiWaitForVBlank?</texto>
+    <opciones>
+        <opcion valor="a">La llegada de un interruptor</opcion>
+        <opcion valor="b">Que se finalice el dibujado de la imagen en la pantalla correspondiente</opcion>
+        <opcion valor="c">El inicio de la ejecución de una instrucción específica</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué pasa cuando se accede a una pantalla en modo Frame Buffer sin sincronización?</texto>
+    <opciones>
+        <opcion valor="a">El programa se bloquea</opcion>
+        <opcion valor="b">Puede que algunas bandas de la pantalla queden en negro</opcion>
+        <opcion valor="c">Se produce un error de compilación</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué pasa cuando accedemos a un controlador de E/S sin sincronización?</texto>
+    <opciones>
+        <opcion valor="a">El controlador se bloquea</opcion>
+        <opcion valor="b">Se puede perder información</opcion>
+        <opcion valor="c">La velocidad de acceso se incrementa</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En un bucle principal de un programa para la NDS, ¿en qué momento es seguro ejecutar instrucciones que modifican el contenido de una pantalla?</texto>
+    <opciones>
+        <opcion valor="a">Antes de un retrazado vertical</opcion>
+        <opcion valor="b">Después de un retrazado horizontal</opcion>
+        <opcion valor="c">Después de un retrazado vertical</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>En qué se basa la sincronización por encuesta?</texto>
+    <opciones>
+        <opcion valor="a">En esperar una señal de interrupción</opcion>
+        <opcion valor="b">En consultar si el controlador al que se pretende acceder está preparado o no</opcion>
+        <opcion valor="c">En ejecutar instrucciones de manera secuencial</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tipo de encuesta consume más CPU?</texto>
+    <opciones>
+        <opcion valor="a">Encuesta periódica</opcion>
+        <opcion valor="b">Encuesta contínua</opcion>
+        <opcion valor="c">Encuesta selectiva</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué ventajas presenta la sincronización por encuesta respecto a la sincronización por interrupciones?</texto>
+    <opciones>
+        <opcion valor="a">Mayor velocidad de respuesta</opcion>
+        <opcion valor="b">Menos consumo de CPU</opcion>
+        <opcion valor="c">Menos complejidad en la programación</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Desde el punto de vista algorítmico, ¿qué tipos de sincronización por encuesta existen?</texto>
+    <opciones>
+        <opcion valor="a">Encuesta periódica y encuesta contínua</opcion>
+        <opcion valor="b">Encuesta selectiva y encuesta secuencial</opcion>
+        <opcion valor="c">Encuesta activa y encuesta pasiva</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cada cuánto tiempo se debe realizar la encuesta periódica?</texto>
+    <opciones>
+        <opcion valor="a">Cada segundo</opcion>
+        <opcion valor="b">A más frecuencia de la máxima a la que pueda responder el controlador con el que se pretende comunicarse</opcion>
+        <opcion valor="c">Cada minuto</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Cómo una rutina de servicio de interrupción puede saber la dirección de retorno al punto del programa principal donde se produjo la interrupción?</texto>
+    <opciones>
+        <opcion valor="a">Mediante el registro PC</opcion>
+        <opcion valor="b">Antes de entrar en la rutina de servicio de interrupciones la CPU guarda la dirección de retorno en el registro LR</opcion>
+        <opcion valor="c">El controlador de interrupciones le pasa la dirección de retorno como parámetro</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuánto tiempo puede tardar la CPU en atender una petición de interrupción?</texto>
+    <opciones>
+        <opcion valor="a">El tiempo de terminar de atender otras interrupciones</opcion>
+        <opcion valor="b">Depende de la carga de trabajo de la CPU</opcion>
+        <opcion valor="c">Menos de 1 milisegundo</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Dentro del bucle principal de un programa para NDS, ¿en qué momento se puede generar una interrupción de un controlador de E/S?</texto>
+    <opciones>
+        <opcion valor="a">Solo al principio del bucle</opcion>
+        <opcion valor="b">En cualquier momento</opcion>
+        <opcion valor="c">Solo al final del bucle</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Por qué la sincronización por interrupciones es más eficaz que la sincronización por encuesta (contínua o periódica)?</texto>
+    <opciones>
+        <opcion valor="a">Porque utiliza menos recursos de la CPU</opcion>
+        <opcion valor="b">Porque atiende al controlador de E/S justo en el momento que lo necesita</opcion>
+        <opcion valor="c">Porque es más sencilla de implementar</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué instrucción de lenguaje máquina del ARM se necesita para realizar una sincronización por interrupción?</texto>
+    <opciones>
+        <opcion valor="a">SWI</opcion>
+        <opcion valor="b">IRQ</opcion>
+        <opcion valor="c">Ninguna, la sincronización por interrupciones se realiza mediante señales hardware específicas</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es la idea básica del mecanismo de las interrupciones?</texto>
+    <opciones>
+        <opcion valor="a">Detener el programa y esperar a que el controlador de E/S termine su tarea</opcion>
+        <opcion valor="b">Interrumpir el programa cuando se activa una señal de petición generada por un controlador de E/S</opcion>
+        <opcion valor="c">Forzar la CPU a ejecutar una instrucción específica</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Por qué la ejecución de una rutina de servicio de interrupción tiene que ser lo más rápida posible (preferentemente menos de 100 microsegundos)?</texto>
+    <opciones>
+        <opcion valor="a">Para que el controlador de E/S no se quede bloqueado</opcion>
+        <opcion valor="b">Porque mientras se está ejecutando la RSI no se puede atender al resto de los controladores de E/S</opcion>
+        <opcion valor="c">Para evitar errores de sincronización</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Cuál es la función del controlador de interrupciones?</texto>
+    <opciones>
+        <opcion valor="a">Gestionar la asignación de direcciones de memoria a los controladores de E/S</opcion>
+        <opcion valor="b">Indicar que hay interrupciones pendientes y cuales son los controladores que las han generado</opcion>
+        <opcion valor="c">Controlar el flujo de ejecución del programa principal</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Para qué sirve el registro REG_IE (Interrupt Enable)?</texto>
+    <opciones>
+        <opcion valor="a">Para indicar los controladores de E/S que pueden pedir la atención de la CPU</opcion>
+        <opcion valor="b">Para habilitar o deshabilitar todas las interrupciones</opcion>
+        <opcion valor="c">Para indicar el tipo de interrupción a la que debe responder la CPU</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Para qué sirve el registro REG_IF (Interrupt Flags)?</texto>
+    <opciones>
+        <opcion valor="a">Para indicar los controladores de E/S que han pedido la atención de la CPU</opcion>
+        <opcion valor="b">Para almacenar las direcciones de memoria de las interrupciones pendientes</opcion>
+        <opcion valor="c">Para indicar el tipo de interrupción a la que debe responder la CPU</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Para qué sirve el registro REG_IME (Interrupt Master Enable)?</texto>
+    <opciones>
+        <opcion valor="a">Para activar y desactivar la generación de interrupciones</opcion>
+        <opcion valor="b">Para habilitar o deshabilitar todos los registros de control de los controladores de E/S</opcion>
+        <opcion valor="c">Para indicar los tipos de interrupción permitidos por el sistema</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos tipos de interrupciones puede distinguir el controlador de interrupciones del ARM9?</texto>
+    <opciones>
+        <opcion valor="a">9</opcion>
+        <opcion valor="b">19</opcion>
+        <opcion valor="c">32</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Cuál es el proposito de la rutina principal de interrupciones en la plataforma NDS?</texto>
+    <opciones>
+        <opcion valor="a">Manejar todas las interrupciones del sistema de forma genérica</opcion>
+        <opcion valor="b">Invocar las RSI de los controladores que hayan generado una interrución</opcion>
+        <opcion valor="c">Controlar la prioridad de las interrupciones</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántas rutinas de servicio de interrupción específicas puede ser necesario implementar en un programa para la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Una para cada tipo de interrupción</opcion>
+        <opcion valor="b">Una para cada controlador de E/S que tenga habilitado el bit de permiso para generar interrupciones en el registro REG_IE</opcion>
+        <opcion valor="c">Una para cada dispositivo conectado al bus</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántas rutinas principales de interrupción hay por procesador en la plataforma NDS?</texto>
+    <opciones>
+        <opcion valor="a">Una</opcion>
+        <opcion valor="b">Dos</opcion>
+        <opcion valor="c">Tres</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Dónde se encuentran almacenadas las rutinas principales de interrupciones que tiene por defecto la plataforma NDS?</texto>
+    <opciones>
+        <opcion valor="a">En la RAM principal</opcion>
+        <opcion valor="b">En las respectivas BIOS de cada procesador</opcion>
+        <opcion valor="c">En la memoria compartida</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En qué posiciones de la memoria se tienen que instalar las rutinas de interrupción principales en los procesadores de la plataforma NDS?</texto>
+    <opciones>
+        <opcion valor="a">En posiciones fijas y distintas para cada procesador</opcion>
+        <opcion valor="b">En posiciones variables determinadas por el programador</opcion>
+        <opcion valor="c">En posiciones fijas para ambos procesadores</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Para qué sirven las rutinas de servicio de interrupción específicas?</texto>
+    <opciones>
+        <opcion valor="a">Para manejar todas las interrupciones del sistema</opcion>
+        <opcion valor="b">Para comunicarse con el controlador de E/S al que atiende esa RSI</opcion>
+        <opcion valor="c">Para controlar la prioridad de las interrupciones</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Por qué la rutina principal de interrupciones tiene que actualizar la posición de memoria INTR_WAIT_FLAGS?</texto>
+    <opciones>
+        <opcion valor="a">Para indicar cuántas interrupciones se han producido</opcion>
+        <opcion valor="b">Para que la CPU espere a que todas las interrupciones hayan sido atendidas</opcion>
+        <opcion valor="c">Porque las funciones como swiWaitForVBlank() consultan dicha posición para determinar si se puede desbloquear la CPU</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Aproximadamente, cuál es el periodo más pequeño que se puede conseguir con un 'timer' de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">1 microsegundo</opcion>
+        <opcion valor="b">0,03 microsegundos</opcion>
+        <opcion valor="c">10 microsegundos</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo actúa el divisor de frecuencia de un 'timer' de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Divide la frecuencia de la CPU</opcion>
+        <opcion valor="b">Resta el valor del divisor de frecuencia al contador del 'timer'</opcion>
+        <opcion valor="c">Incrementa el valor inicial del divisor de frecuencia hasta llegar a cero</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo funcionan los controladores de tiempo o 'timers' de la plataforma NDS?</texto>
+    <opciones>
+        <opcion valor="a">Generan una señal de reloj constante</opcion>
+        <opcion valor="b">Generan una interrupción a una frecuencia variable, según un divisor de frecuencia</opcion>
+        <opcion valor="c">Detienen el sistema durante un periodo de tiempo</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo se puede controlar el tiempo con precisión en la plataforma NDS?</texto>
+    <opciones>
+        <opcion valor="a">Utilizando registros de control de tiempo</opcion>
+        <opcion valor="b">Con las interrupciones de los controladores de tiempo o 'timers'</opcion>
+        <opcion valor="c">Ajustando manualmente la frecuencia del reloj</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es aproximadamente la frecuencia base a partir de la cual se calculan todo el resto de frecuencias para los controladores de tiempo?</texto>
+    <opciones>
+        <opcion valor="a">20 MHz</opcion>
+        <opcion valor="b">33,5 MHz</opcion>
+        <opcion valor="c">50 MHz</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es el valor del divisor de frecuencia medio que se puede especificar en un 'timer' de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">-100</opcion>
+        <opcion valor="b">0</opcion>
+        <opcion valor="c">-32768</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuándo resulta imposible generar una determinada frecuencia de salida con un 'timer' de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Cuando el divisor de frecuencia requerido es mayor que -32768</opcion>
+        <opcion valor="b">Cuando el divisor de frecuencia requerido es menor que 0</opcion>
+        <opcion valor="c">Cuando el divisor de frecuencia requerido es menor que -32768</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Para qué sirve el registro TIMERx_DATA de un 'timer' de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Para almacenar el valor actual del contador del 'timer'</opcion>
+        <opcion valor="b">Para especificar el divisor de frecuencia</opcion>
+        <opcion valor="c">Para habilitar o deshabilitar el 'timer'</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Por qué hay que procurar elegir la frecuencia de entrada más alta posible en un 'timer' de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Para generar interrupciones más lentas</opcion>
+        <opcion valor="b">Para ahorrar energía</opcion>
+        <opcion valor="c">Para generar las interrupciones por unidad de tiempo requeridas con el menor error</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál de los siguientes parámetros NO se puede especificar en el registro de control de un 'timer' de la plataforma NDS?</texto>
+    <opciones>
+        <opcion valor="a">La frecuencia de entrada</opcion>
+        <opcion valor="b">El valor inicial del contador</opcion>
+        <opcion valor="c">El divisor de frecuencia</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Sobre cuántas frecuencias de entrada pueden trabajar los controladores de tiempo o 'timers' de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Sobre dos</opcion>
+        <opcion valor="b">Sobre tres</opcion>
+        <opcion valor="c">Sobre cuatro, la frecuencia base dividida por 1, 64, 256 y 1024</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántos controladores de tiempo general o 'timers' hay en la plataforma NDS?</texto>
+    <opciones>
+        <opcion valor="a">Cuatro</opcion>
+        <opcion valor="b">Seis</opcion>
+        <opcion valor="c">Ocho, cuatro por cada procesador</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De cuántos registros de entrada/salida dispone un 'timer' de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Uno</opcion>
+        <opcion valor="b">Dos</opcion>
+        <opcion valor="c">Tres</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es el valor del divisor de frecuencia máximo que se puede especificar en un 'timer' de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">-1</opcion>
+        <opcion valor="b">0</opcion>
+        <opcion valor="c">1</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>En una transferencia de datos mediante CPU, ¿qué instrucciones de lenguaje máquina son las encargadas de transferir los datos?</texto>
+    <opciones>
+        <opcion valor="a">mov / cmp</opcion>
+        <opcion valor="b">ldr / str</opcion>
+        <opcion valor="c">add / sub</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En una transferencia de datos mediante CPU entre una zona de memoria y un controlador de E/S, ¿qué elemento puede introducir los retardos más significativos en todo el proceso?</texto>
+    <opciones>
+        <opcion valor="a">El acceso al controlador de E/S</opcion>
+        <opcion valor="b">El acceso a la memoria</opcion>
+        <opcion valor="c">La carga de instrucciones</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En una transferencia de un bloque de datos mediante CPU, ¿cuántas instrucciones de lenguaje máquina se necesitan para controlar completamente la transferencia de un elemento del bloque (byte/hword/word)?</texto>
+    <opciones>
+        <opcion valor="a">Cuatro o cinco</opcion>
+        <opcion valor="b">Seis o siete, para leer + escribir, aumentar índices y control del bucle</opcion>
+        <opcion valor="c">Ocho o nueve</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En una transferencia de un bloque de datos mediante CPU, ¿cómo se calcula el tiempo total necesario para realizar la transferencia de todo el bloque?</texto>
+    <opciones>
+        <opcion valor="a">El tiempo de acceso a la memoria</opcion>
+        <opcion valor="b">El tiempo de ejecución de cada instrucción</opcion>
+        <opcion valor="c">El tiempo de todo el bucle de transferencia, multiplicado por el número de elementos del bloque</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+```xml
+<pregunta>
+    <texto>Aproximadamente, en qué proporción es más rápida es la transferencia de un bloque de datos por DMA respecto a la transferencia del mismo bloque por CPU?</texto>
+    <opciones>
+        <opcion valor="a">Entre 2 y 3 veces más rápida</opcion>
+        <opcion valor="b">Entre 4 y 5 veces más rápida</opcion>
+        <opcion valor="c">Entre 8 y 10 veces más rápida</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo se comunican el controlador de DMA y la CPU cuando se está realizando una transferencia de un bloque de datos por DMA?</texto>
+    <opciones>
+        <opcion valor="a">Vía interrupciones</opcion>
+        <opcion valor="b">Vía señales de petición / concesión de bus</opcion>
+        <opcion valor="c">Vía registros de control compartidos</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En qué consiste básicamente la tarea de un controlador de DMA?</texto>
+    <opciones>
+        <opcion valor="a">Ejecutar instrucciones de transferencia directa de datos</opcion>
+        <opcion valor="b">Regular la transferencia de un bloque de datos</opcion>
+        <opcion valor="c">Decodificar las instrucciones de transferencia</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En qué parte del proceso de transferir un bloque de datos por DMA no interviene el controlador de DMA?</texto>
+    <opciones>
+        <opcion valor="a">En la solicitud del acceso al bus</opcion>
+        <opcion valor="b">En la ejecución de la RSI del DMA</opcion>
+        <opcion valor="c">En la ejecución de las instrucciones de transferencia</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En una transferencia de 1024 datos por un controlador DMA de la NDS, ¿cuántas veces se pide el acceso al bus?</texto>
+    <opciones>
+        <opcion valor="a">1023 veces</opcion>
+        <opcion valor="b">Una única vez, para toda la transferencia</opcion>
+        <opcion valor="c">1024 veces</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En una transferencia de un bloque de datos mediante DMA, ¿cuántas instrucciones de lenguaje máquina se necesitan para controlar la transferencia de un elemento de información (byte/hword/word)?</texto>
+    <opciones>
+        <opcion valor="a">Una</opcion>
+        <opcion valor="b">Ninguna, la transferencia es automática</opcion>
+        <opcion valor="c">Cinco o más</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En una transferencia DMA, ¿cuál es el recurso principal por el que tienen que competir la CPU y el controlador de DMA?</texto>
+    <opciones>
+        <opcion valor="a">Memoria RAM</opcion>
+        <opcion valor="b">Acceso a registros internos</opcion>
+        <opcion valor="c">Acceso al bus</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En una transferencia por DMA, ¿qué componente pide el acceso al bus?</texto>
+    <opciones>
+        <opcion valor="a">La CPU</opcion>
+        <opcion valor="b">La memoria RAM</opcion>
+        <opcion valor="c">El controlador de DMA</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Por qué las transferencias de grandes bloques de datos son siempre más rápidas por DMA que por CPU?</texto>
+    <opciones>
+        <opcion valor="a">Porque el DMA utiliza instrucciones de lenguaje máquina más eficientes</opcion>
+        <opcion valor="b">Porque el DMA regula la copia de todos los datos por hardware (sin instrucciones de LM)</opcion>
+        <opcion valor="c">Porque la CPU tiene un rendimiento inferior al DMA</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En una transferencia por DMA de un bloque de 1024 datos, ¿cuántas interrupciones se producirán?</texto>
+    <opciones>
+        <opcion valor="a">Ninguna</opcion>
+        <opcion valor="b">Una, al inicio de la transferencia</opcion>
+        <opcion valor="c">Una, al finalizar la transferencia</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál de los siguientes parámetros no se puede configurar con el registro de control de un canal DMA de la plataforma NDS?</texto>
+    <opciones>
+        <opcion valor="a">La dirección de memoria fuente</opcion>
+        <opcion valor="b">El tamaño de la transferencia</opcion>
+        <opcion valor="c">La dirección de memoria destino</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De cuántos registros de E/S para indicar direcciones de memoria se dispone en la NDS para cada canal de DMA?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2</opcion>
+        <opcion valor="c">3</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En el controlador de DMA de la NDS, cómo se incrementa la dirección de memoria destino?</texto>
+    <opciones>
+        <opcion valor="a">De uno en uno</opcion>
+        <opcion valor="b">De dos en dos o de cuatro en cuatro, dependiendo del tamaño de los datos a copiar</opcion>
+        <opcion valor="c">De cuatro en cuatro</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Para qué sirve el registro DMAxDAD de un canal del DMA en la plataforma NDS?</texto>
+    <opciones>
+        <opcion valor="a">Para indicar la dirección de memoria fuente de la transferencia</opcion>
+        <opcion valor="b">Para indicar la dirección de memoria destino de la transferencia</opcion>
+        <opcion valor="c">Para configurar el tamaño de la transferencia</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tamaños de los datos admiten los controladores DMA de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">1 byte o 2 bytes</opcion>
+        <opcion valor="b">2 bytes o 4 bytes</opcion>
+        <opcion valor="c">4 bytes o 8 bytes</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Se puede realizar una transferencia DMA sin generar ninguna petición de interrupción en la plataforma NDS?</texto>
+    <opciones>
+        <opcion valor="a">Sí, es la forma normal de realizar transferencias DMA</opcion>
+        <opcion valor="b">Sí, aunque no es recomendable porqué habrá que realizar la sincronización con el DMA por encuesta</opcion>
+        <opcion valor="c">No, siempre se genera una petición de interrupción</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De cuántos registros de E/S se dispone en la NDS para cada canal de DMA?</texto>
+    <opciones>
+        <opcion valor="a">2 (dir. Fuente + dir. Destino)</opcion>
+        <opcion valor="b">3 (dir. Fuente + dir. Destino + control)</opcion>
+        <opcion valor="c">4 (dir. Fuente + dir. Destino + tamaño + control)</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En el controlador de DMA de la NDS, cómo se puede modificar la dirección de memoria fuente?</texto>
+    <opciones>
+        <opcion valor="a">Incrementar</opcion>
+        <opcion valor="b">Decrementar</opcion>
+        <opcion valor="c">Incrementar, decrementar o no modificar (dirección fija)</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál de las siguientes características no se puede configurar con el registro de control de cada canal de sonido de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Frecuencia de reproducción de los datos muestreados</opcion>
+        <opcion valor="b">Volumen de la reproducción de sonido</opcion>
+        <opcion valor="c">Modo de reproducción (normal o bucle)</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuando un canal de sonido se configura en modo bucle infinito, ¿desde qué posición hasta qué otra posición se encuentran los datos de audio a reproducir como parte del bucle?</texto>
+    <opciones>
+        <opcion valor="a">Desde SOUNDxPNT a SOUNDxLEN</opcion>
+        <opcion valor="b">Desde SOUNDxPNT a SOUNDxDAT</opcion>
+        <opcion valor="c">Desde SOUNDxDAT a SOUNDxLEN</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De cuántas "pistas" o "vías" de audio dispone cada canal de sonido de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">1 (sonido monoaural)</opcion>
+        <opcion valor="b">2 (sonido estéreo)</opcion>
+        <opcion valor="c">4 (sonido cuadrafónico)</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De cuántos controladores de sonido dispone la NDS?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2</opcion>
+        <opcion valor="c">4</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué frecuencias de sonido puede reproducir el controlador de sonido de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Cualquier frecuencia entre 20 Hz y 8 kHz</opcion>
+        <opcion valor="b">Cualquier frecuencia entre 20 Hz y 8 MHz</opcion>
+        <opcion valor="c">Cualquier frecuencia entre 1 kHz y 16 kHz</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué tipo de información se envía al controlador de sonido de la NDS para generar un señal de audio cualquiera?</texto>
+    <opciones>
+        <opcion valor="a">Configuración de instrumentos</opcion>
+        <opcion valor="b">Secuencia de comandos de sonido</opcion>
+        <opcion valor="c">Muestras de sonido</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De todos los canales de sonido de la NDS, cuántos pueden sonar simultaneamente?</texto>
+    <opciones>
+        <opcion valor="a">4</opcion>
+        <opcion valor="b">8</opcion>
+        <opcion valor="c">16</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De cuántos canales de sonido dispone la NDS?</texto>
+    <opciones>
+        <opcion valor="a">8</opcion>
+        <opcion valor="b">16</opcion>
+        <opcion valor="c">32</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cada cuanto tiempo el controlador de DMA dedicado transfiere un dato muestreado al canal correspondiente del controlador de sonido?</texto>
+    <opciones>
+        <opcion valor="a">Cuando el timer dedicado se lo indica</opcion>
+        <opcion valor="b">A intervalos fijos de 10 ms</opcion>
+        <opcion valor="c">En cada ciclo de reloj</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo se indica la frecuencia de reproducción (freq_rep) de los datos muestreados en cada canal del controlador de sonido?</texto>
+    <opciones>
+        <opcion valor="a">Escribiendo el divisor de frecuencia -(Freq_base/ freq_rep) en el registro SOUNDxTMR</opcion>
+        <opcion valor="b">Configurando el registro SOUNDxFREQ con el valor de la frecuencia de reproducción</opcion>
+        <opcion valor="c">Ajustando el bit de frecuencia en el registro SOUNDxCR</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Para qué sirven los registros SOUNDxSAD de los canales del controlador de sonido?</texto>
+    <opciones>
+        <opcion valor="a">Para indicar la dirección de inicio de los datos muestreados</opcion>
+        <opcion valor="b">Para configurar la tasa de muestreo del audio</opcion>
+        <opcion valor="c">Para especificar el volumen de reproducción</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Para qué sirven los registros SOUNDxTMR de los canales del controlador de sonido?</texto>
+    <opciones>
+        <opcion valor="a">Para indicar la frecuencia de reproducción</opcion>
+        <opcion valor="b">Para controlar el volumen del audio</opcion>
+        <opcion valor="c">Para especificar la dirección de inicio de la reproducción</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué información transfieren el controlador de DMA dedicado de cada canal del controlador de sonido?</texto>
+    <opciones>
+        <opcion valor="a">Los datos muestreados del audio de un canal (monofónico)</opcion>
+        <opcion valor="b">Las instrucciones de reproducción del sonido</opcion>
+        <opcion valor="c">Las configuraciones de volumen y tono del audio</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Para qué sirve el timer dedicado a cada canal del controlador de sonido?</texto>
+    <opciones>
+        <opcion valor="a">Para indicar la frecuencia de reproducción</opcion>
+        <opcion valor="b">Para controlar el volumen del audio</opcion>
+        <opcion valor="c">Para ajustar el nivel de grabación del micrófono</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De cuántos timers dispone el controlador de sonido de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">8</opcion>
+        <opcion valor="b">16</opcion>
+        <opcion valor="c">32</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Desde qué ubicación se transfiere la información de audio muestreada para el controlador de sonido?</texto>
+    <opciones>
+        <opcion valor="a">Desde cualquier zona de memoria a la que pueda acceder el controlador de sonido</opcion>
+        <opcion valor="b">Desde la memoria de vídeo</opcion>
+        <opcion valor="c">Desde una memoria específica para audio</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De cuántos bits para transmitir pequeños mensajes entre los procesadores disponen los registros de sincronización IPC_SYNC?</texto>
+    <opciones>
+        <opcion valor="a">2</opcion>
+        <opcion valor="b">4</opcion>
+        <opcion valor="c">8</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Entre qué CPUs de la NDS se puede realizar una sincronización mediante un registro IPC_SYNC?</texto>
+    <opciones>
+        <opcion valor="a">Entre los procesadores ARM y el procesador gráfico</opcion>
+        <opcion valor="b">Entre los dos procesadores, en ambos sentidos</opcion>
+        <opcion valor="c">Solo entre el ARM7 y el ARM9</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Para qué sirven los registros de IPC_SYNC de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Para controlar la velocidad de la CPU</opcion>
+        <opcion valor="b">Para sincronizar los procesadores ARM</opcion>
+        <opcion valor="c">Para gestionar la memoria de vídeo</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Suponiendo que el procesador destino está preparado para recibir peticiones de interrupción IRQ_IPC_SYNC, ¿cuánto tiempo puede pasar entre que el procesador origen envía dicha señal de sincronización y el procesador destino la detecta?</texto>
+    <opciones>
+        <opcion valor="a">Un tiempo fijo de 10 ms</opcion>
+        <opcion valor="b">El tiempo que tarde el procesador destino en atender a la IRQ_IPC_SYNC</opcion>
+        <opcion valor="c">Menos de 1 microsegundo</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cómo se pueden sincronizar los procesadores de la NDS mediante los registros IPC_SYNC?</texto>
+    <opciones>
+        <opcion valor="a">Mediante señales de reloj compartidas</opcion>
+        <opcion valor="b">Mediante interrupciones o mediante encuesta</opcion>
+        <opcion valor="c">Mediante registros de configuración</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál de las siquientes acciones no se puede realizar mediante un registro IPC_SYNC?</texto>
+    <opciones>
+        <opcion valor="a">Enviar una señal de sincronización</opcion>
+        <opcion valor="b">Recibir la señal de sincronización por IRQ del otro procesador</opcion>
+        <opcion valor="c">Comprobar el estado de la sincronización</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De cuántos registros de sincronización IPC_SYNC dispone la NDS?</texto>
+    <opciones>
+        <opcion valor="a">1</opcion>
+        <opcion valor="b">2 (uno para cada procesador)</opcion>
+        <opcion valor="c">4</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>A qué cola IPC_FIFO se refiere la petición de interrupción de cola vacía IRQ_FIFO_EMPTY para uno de los dos procesadores de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">A su cola de envío</opcion>
+        <opcion valor="b">A su cola de recepción</opcion>
+        <opcion valor="c">A ambas colas</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál de las siguientes acciones no se puede realizar mediante un registro IPC_FIFO_CR (registro de control de las colas fifo)?</texto>
+    <opciones>
+        <opcion valor="a">Activar el señal de IRQ_FIFO_EMPTY (interrupción de cola vacía)</opcion>
+        <opcion valor="b">Activar el señal de IRQ_FIFO_NOT_EMPTY (interrupción de cola no vacía)</opcion>
+        <opcion valor="c">Activar el señal de IRQ_FIFO_NOT_FULL (interrupción de cola no llena)</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál de las siguientes interrupciones puede ser generada por el controlador de la comunicación IPC en cada uno de las CPU de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Cola vacía</opcion>
+        <opcion valor="b">Cola llena</opcion>
+        <opcion valor="c">Cola de recepción no vacía</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuanto tiempo puede tardar una CPU en enviar 16 words hacia el otro procesador a través de una cola IPC_FIFO?</texto>
+    <opciones>
+        <opcion valor="a">Menos de 1 microsegundo</opcion>
+        <opcion valor="b">El tiempo de ejecutar un bucle para escribir los 16 words sobre el registro IPC_FIFO_TX</opcion>
+        <opcion valor="c">Un tiempo fijo de 10 ms</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De cuántas posiciones disponen cada una de las colas IPC_FIFO de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">8</opcion>
+        <opcion valor="b">16</opcion>
+        <opcion valor="c">32</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De cuántos bits son las posiciones de las colas IPC_FIFO de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">16</opcion>
+        <opcion valor="b">32</opcion>
+        <opcion valor="c">64</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De cuántos registros de comunicación de datos a través de las colas IPC_FIFO dispone cada CPU de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Uno</opcion>
+        <opcion valor="b">Dos, un registro para enviar IPC_FIFO_TX y otro para recibir IPC_FIFO_RX</opcion>
+        <opcion valor="c">Tres</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué señal de estado de las colas IPC_FIFO puede generar peticiones de interrupción?</texto>
+    <opciones>
+        <opcion valor="a">Cola vacía</opcion>
+        <opcion valor="b">Cola llena</opcion>
+        <opcion valor="c">Cola no vacía</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De cuántos registros de comunicación de datos a través de las colas IPC_FIFO dispone la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Cuatro, dos para el ARM9 más dos para el ARM7</opcion>
+        <opcion valor="b">Dos, uno para cada procesador</opcion>
+        <opcion valor="c">Tres, uno común y uno para cada procesador</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál de las siguientes interrupciones puede ser generada por el controlador de la comunicación IPC en cada uno de las CPU de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Cola de envío vacía</opcion>
+        <opcion valor="b">Cola llena</opcion>
+        <opcion valor="c">Cola no vacía</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Qué relación hay entre las peticiones de interrupción de las colas IPC_FIFO de los dos procesadores de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">La IRQ_FIFO_EMPTY de un procesador es la negada de la IRQ_FIFO_NOT_EMPTY del otro procesador</opcion>
+        <opcion valor="b">Son independientes y no hay relación</opcion>
+        <opcion valor="c">Ambas señales son equivalentes y activan la misma IRQ en ambos procesadores</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>De cuántos registros de control de las colas IPC_FIFO dispone la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Dos, uno para cada procesador</opcion>
+        <opcion valor="b">Cuatro, dos para cada procesador</opcion>
+        <opcion valor="c">Tres, uno común y uno para cada procesador</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuántas colas IPC_FIFO puede controlar el registro de control IPC_FIFO_CR de cada procesador?</texto>
+    <opciones>
+        <opcion valor="a">2 (la cola de envío y la de recepción)</opcion>
+        <opcion valor="b">1 (la cola de envío)</opcion>
+        <opcion valor="c">3 (la cola de envío, la de recepción y una adicional)</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+<pregunta>
+    <texto>¿Cuántos modos de fondos gráficos tiene el procesador gráfico 2D secundario de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">6</opcion>
+        <opcion valor="b">7 más el modo Frame Buffer</opcion>
+        <opcion valor="c">5</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En el modo Frame Buffer de la NDS, ¿cuántos píxeles se pueden mostrar por pantalla?</texto>
+    <opciones>
+        <opcion valor="a">192 x 256</opcion>
+        <opcion valor="b">256 x 192</opcion>
+        <opcion valor="c">512 x 384</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>¿Qué tipo de información NO se puede almacenar en la memoria virtual de vídeo de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">Paletas extendidas</opcion>
+        <opcion valor="b">Atributos de los objetos (sprites)</opcion>
+        <opcion valor="c">Información de fondos gráficos</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En el modo Frame Buffer, ¿cuántos bits se necesitan para codificar el color de cada píxel?</texto>
+    <opciones>
+        <opcion valor="a">8</opcion>
+        <opcion valor="b">16</opcion>
+        <opcion valor="c">32</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>¿Cuál es el tamaño mínimo de un 'sprite' en la plataforma NDS?</texto>
+    <opciones>
+        <opcion valor="a">16x16 píxeles</opcion>
+        <opcion valor="b">8x8 píxeles</opcion>
+        <opcion valor="c">32x32 píxeles</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>En qué se basa la sincronización por encuesta?</texto>
+    <opciones>
+        <opcion valor="a">En utilizar interrupciones para sincronizar los procesadores</opcion>
+        <opcion valor="b">En consultar si el controlador al que se pretende acceder está preparado o no</opcion>
+        <opcion valor="c">En la ejecución de rutinas de servicio de interrupción</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Cuál es la función del controlador de interrupciones?</texto>
+    <opciones>
+        <opcion valor="a">Realizar operaciones de entrada/salida</opcion>
+        <opcion valor="b">Indicar que hay interrupciones pendientes y cuales son los controladores que las han generado</opcion>
+        <opcion valor="c">Generar señales de reloj para los procesadores</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Aproximadamente, cuál es el periodo más pequeño que se puede conseguir con un 'timer' de la NDS?</texto>
+    <opciones>
+        <opcion valor="a">0,03 microsegundos</opcion>
+        <opcion valor="b">1 milisegundo</opcion>
+        <opcion valor="c">100 microsegundos</opcion>
+    </opciones>
+    <respuesta_correcta>a</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>Entre qué CPUs de la NDS se puede realizar una sincronización mediante un registro IPC_SYNC?</texto>
+    <opciones>
+        <opcion valor="a">Solo entre el ARM7 y el ARM9</opcion>
+        <opcion valor="b">Solo entre dos ARM7</opcion>
+        <opcion valor="c">Entre los dos procesadores, en ambos sentidos</opcion>
+    </opciones>
+    <respuesta_correcta>c</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>¿Cuántos bytes ocupa un mapa de baldosas de un fondo 'extended rotation' de 32x32 píxeles?</texto>
+    <opciones>
+        <opcion valor="a">16</opcion>
+        <opcion valor="b">32</opcion>
+        <opcion valor="c">64</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>¿Cuántos bytes ocupa un mapa de baldosas de un fondo 'extended rotation' de 64x64 píxeles?</texto>
+    <opciones>
+        <opcion valor="a">64</opcion>
+        <opcion valor="b">128</opcion>
+        <opcion valor="c">256</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>¿Cuántos bytes ocupa un mapa de baldosas de un fondo 'extended rotation' de 128x128 píxeles?</texto>
+    <opciones>
+        <opcion valor="a">256</opcion>
+        <opcion valor="b">512</opcion>
+        <opcion valor="c">1024</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+    <texto>¿Cuántos bytes ocupa un mapa de baldosas de un fondo 'extended rotation' de 256x256 píxeles?</texto>
+    <opciones>
+        <opcion valor="a">1024</opcion>
+        <opcion valor="b">2048</opcion>
+        <opcion valor="c">4096</opcion>
+    </opciones>
+    <respuesta_correcta>b</respuesta_correcta>
+</pregunta>
+
+</preguntas>
