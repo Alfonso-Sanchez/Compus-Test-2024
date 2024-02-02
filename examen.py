@@ -7,7 +7,6 @@ import time
 
 NUM_QUESTIONS = 12
 MAX_TIME = 15
-puntuacio = 0
 
 
 class TestApp:
