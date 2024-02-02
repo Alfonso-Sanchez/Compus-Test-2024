@@ -177,7 +177,7 @@ class TestApp:
         answered_questions = self.current_question
         correct_answers = self.correct_count
         incorrect_answers = self.incorrect_count
-        self.puntuacio = correct_answers/NUM_QUESTIONS * 10 - (incorrect_answers * 0.33)
+        self.puntuacio = ((correct_answers - (incorrect_answers * 0.33)) / NUM_QUESTIONS) * 10
         stats_text = f"Preguntes carregades: {total_questions}   | Preguntes a realitzar: {NUM_QUESTIONS} |  Correctes: {correct_answers}   |  Incorrectes: {incorrect_answers} | Puntuacio {self.puntuacio}" 
         self.stats_label.config(text=stats_text)
 
