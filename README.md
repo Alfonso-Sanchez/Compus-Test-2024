@@ -6,6 +6,6 @@ Gracias a Eduard Vericat por todo el codigo base. Se ha implementado las siguien
 > El numero de preguntas a responder pasa a ser 12 y no 305.\
 > El tiempo restante son 15m igual que en el examen real.\
 > Se calcula la puntuación en tiempo real.\
-> Si respondes una pregunta, se te bloquea el poder volver a responder, tu respuesta, es tu decisión final.\
+> Si respondes una pregunta, se te bloquea el poder volver a responder, tu respuesta, es tu decisión final.
 
 Se ha generado ademas los archivos .exe para evitar que el usuario deba hacer uso de pyhton (Ver en release).
